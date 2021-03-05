@@ -8,7 +8,9 @@ namespace PathVisualizer
 
     /// <summary>
     /// Button that stores a <see cref="DirectoryInfo"/> as a data context.
-    /// When clicked on this button, it will open Windows explorer
+    /// When clicked on this button, it will open Windows explorer in the folder
+    /// represented by the DirectoryInfo. If it represents a file, it will be
+    /// selected. New instance of Windows explorer is opened on each click.
     /// </summary>
     internal class FileOpenButton : Button
     {

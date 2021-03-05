@@ -1,8 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Microsoft.VisualStudio.DebuggerVisualizers;
 using System.Windows.Forms;
 using System.IO;
@@ -11,7 +8,7 @@ using System.IO;
     typeof(PathVisualizer.DebuggerSide),
     typeof(VisualizerObjectSource),
     Target = typeof(System.String),
-    Description = "Visualizes the string (if possible) as a clickable path that opens explorer.")]
+    Description = "Path visualizer")]
 
 namespace PathVisualizer
 {
@@ -27,7 +24,6 @@ namespace PathVisualizer
             return ret;
         }
     }
-
 
     public class DebuggerSide : DialogDebuggerVisualizer
     {
