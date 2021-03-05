@@ -1,5 +1,8 @@
 # Path Visualizer
-Path visualizer is a string visualizer for Visual Studio. It helps to locate dynamically created files (or any file) while debugging. The visualizer is not supported by UWP apps.
+Path visualizer is a string visualizer for Visual Studio. It helps to locate dynamically created files (or any file) while debugging. Navigating to a file or directory is as simple as clicking on the corresponding button. If the path points to a file, the file will be selected. The visualizer is not supported by UWP apps.
+
+![howtodisplay](/Images/displaying-visualizer.png)
+![userinterface](/Images/interface.png)
 
 ## Project structure
 The solution contains two projects
